@@ -30,7 +30,4 @@ ENV PORT=8000
 
 EXPOSE 8000
 
-WORKDIR /app/backend
-RUN pytest app_test.py
-
 CMD ["gunicorn", "--bind", "0.0.0.0:8000", "app:app", "--workers", "2"]

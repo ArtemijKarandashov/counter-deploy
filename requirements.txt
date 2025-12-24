@@ -1,0 +1,7 @@
+flask==2.3.3
+werkzeug==2.3.8
+redis>=5.0.0
+python-dotenv
+flask-cors
+gunicorn
+pytest

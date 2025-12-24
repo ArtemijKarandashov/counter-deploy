@@ -6,10 +6,6 @@ from dotenv import load_dotenv
 from pathlib import Path
 from flask_cors import CORS
 
-# =========================
-# Env & app setup
-# =========================
-
 BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / '.env')
 
