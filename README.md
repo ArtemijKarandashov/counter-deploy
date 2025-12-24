@@ -6,10 +6,6 @@
 <img src="./screenshots/docker-playground.jpg"/>
 <img src="./screenshots/docker-playground-hosted.jpg"/>
 
-
-## server
-
-
 ## tests
 
 <img src="./screenshots/tests.jpg">
